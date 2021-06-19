@@ -1,0 +1,28 @@
+@media (min-width: 760px) { ... }
+@media (max-width: 759px) { ... }
+@media (min-width: 480px) and (orientation: landscape) { ... }
+@media (min-width: 980px) and (max-width: 1200px) { ... }
+@media (max-device-width: 500px) and (orientation: portrait) { ... }
+@media (min-device-width: 501px) { ... }
+.c > div {
+  padding: 1em;
+}
+
+.main {
+  background-color: #8e352e;
+}
+
+.c2 {
+  background-color: #c84c44;
+}
+
+.c3{
+  background-color: #a53d36;
+}
+
+@media screen and (min-width: 31.42em) {
+  .c2, .c3 {
+    float: left;
+    width: 50%;
+  }
+}
